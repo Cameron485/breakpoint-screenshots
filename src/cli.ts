@@ -23,7 +23,7 @@ function parseArgs(argv: string[]): CliOptions {
   const url = rest[0];
   let outDir = "screenshots";
   let fullPage = true;
-  let waitFor = 1000;
+  let waitFor = 50;
 
   for (let i = 1; i < rest.length; i++) {
     const arg = rest[i];
